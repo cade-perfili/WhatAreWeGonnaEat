@@ -1,0 +1,15 @@
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\WhatAreWeGonnaEat.exe
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\WhatAreWeGonnaEat.deps.json
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\WhatAreWeGonnaEat.runtimeconfig.json
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\WhatAreWeGonnaEat.dll
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\ref\WhatAreWeGonnaEat.dll
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\WhatAreWeGonnaEat.pdb
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.csproj.AssemblyReference.cache
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.AssemblyInfoInputs.cache
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.AssemblyInfo.cs
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.csproj.CoreCompileInputs.cache
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.dll
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\ref\WhatAreWeGonnaEat.dll
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.pdb
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.genruntimeconfig.cache
