@@ -2,7 +2,7 @@
 using WhatAreWeGonnaEat;
 
 string Selection;
-    Console.WriteLine("Hello, please make a selection");
+Console.WriteLine("Hello, please make a selection");
 Console.WriteLine("Enter 1 to make your dinner plans!");
 Console.WriteLine("Enter 2 to enter in a new recipie!");
 Selection = Console.ReadLine();
@@ -17,7 +17,11 @@ Selection = Console.ReadLine();
         Recipie myObj = new Recipie();
         myObj.Name = Console.ReadLine();
         Console.WriteLine(myObj.Name);
-            break;
+        Console.WriteLine("Great! Now, let's get the ingredients (sizes in development ;)");
+        Ingredients newObj= new Ingredients();
+        newObj.ingredientsname = Console.ReadLine();
+        Console.WriteLine(newObj.ingredientsname);
+        break;
         case "3":
             Console.WriteLine("Not eating something anymore? Let's get rid of it.");
         break;
