@@ -9,7 +9,16 @@ namespace WhatAreWeGonnaEat
     public class Recipie
     {
         public string name;
-        
+        private Func<string?> readLine;
+
+        public Recipie()
+        {
+        }
+
+        public Recipie(Func<string?> readLine)
+        {
+            this.readLine = readLine;
+        }
 
         public string Name
         {

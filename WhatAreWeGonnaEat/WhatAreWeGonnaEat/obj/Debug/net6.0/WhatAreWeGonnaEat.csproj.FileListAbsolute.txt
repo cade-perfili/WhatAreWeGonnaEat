@@ -13,3 +13,5 @@ C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaE
 C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\ref\WhatAreWeGonnaEat.dll
 C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.pdb
 C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.genruntimeconfig.cache
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\perfi\SoftWareFinal\WhatAreWeGonnaEat\WhatAreWeGonnaEat\WhatAreWeGonnaEat\obj\Debug\net6.0\WhatAreWeGonnaEat.csproj.CopyComplete
