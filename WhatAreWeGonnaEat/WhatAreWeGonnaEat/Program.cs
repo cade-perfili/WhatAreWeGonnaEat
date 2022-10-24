@@ -2,7 +2,7 @@
 using WhatAreWeGonnaEat;
 
 string Selection;
-var recipies = RecipieBook.GetRecipies();
+
 //Change variable name to be specefic
 var fileName = "Recipies.json";
 Console.WriteLine("Hello, please make a selection");
@@ -18,10 +18,9 @@ Selection = Console.ReadLine();
         case "2":
 
         Console.WriteLine("What's the name of the recipie?");
-        Recipie recipies = new();
-        recipies.Name = Console.ReadLine();
-        Console.WriteLine(recipies.Name);
-        JsonFileUtils.SimpleWrite(recipies, fileName);
+        Recipie myObj = new Recipie();
+        myObj.name = Console.ReadLine();
+        Console.WriteLine(myObj.name);
 
         Console.WriteLine("Great! Now, let's get the ingredients (sizes in development ;)");
         Ingredients newObj= new Ingredients();
