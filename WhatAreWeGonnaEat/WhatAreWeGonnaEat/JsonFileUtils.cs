@@ -10,7 +10,7 @@ using WhatAreWeGonnaEat;
 
 namespace WhatAreWeGonnaEat
 {
-    // Native/JsonFileUtils.cs
+    //Newtonsoft/JsonFileUtils.cs
     public static class JsonFileUtils
     {
         private static readonly JsonSerializerSettings _options
