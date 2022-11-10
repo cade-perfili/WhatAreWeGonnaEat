@@ -11,11 +11,10 @@ namespace WhatAreWeGonnaEat
     {
         public string name;
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+        public static string Name { get; set; }
+
+        public static int servingSize { get; set; }
+
 
 
     }
