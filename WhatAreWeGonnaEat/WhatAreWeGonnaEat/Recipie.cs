@@ -9,11 +9,10 @@ namespace WhatAreWeGonnaEat
 {
     public class Recipie
     {
-        public string name;
 
-        public static string Name { get; set; }
+        public  string Name { get; set; }
 
-        public static int servingSize { get; set; }
+        public  int servingSize { get; set; }
 
 
 

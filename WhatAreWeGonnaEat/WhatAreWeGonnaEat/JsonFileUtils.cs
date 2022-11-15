@@ -8,6 +8,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using WhatAreWeGonnaEat;
 
+
 namespace WhatAreWeGonnaEat
 {
     //Newtonsoft/JsonFileUtils.cs
@@ -20,6 +21,12 @@ namespace WhatAreWeGonnaEat
         {
             var jsonString = JsonConvert.SerializeObject(obj, _options);
             File.WriteAllText(fileName, jsonString);
+        }
+
+        public static void DeSimpleWrite(object List, string fileName)
+        {
+           // var jsonlist = JsonConvert.DeserializeObject<List>;
+          //  File.WriteAllText(fileName, jsonlist);
         }
     }
 }

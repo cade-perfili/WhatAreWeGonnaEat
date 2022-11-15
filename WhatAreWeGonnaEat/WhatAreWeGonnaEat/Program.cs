@@ -1,4 +1,12 @@
 ﻿
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using WhatAreWeGonnaEat;
 
 string Selection;
@@ -33,20 +41,26 @@ static void SimpleWrite()
         {
             var recipie = new Recipie();
             Console.WriteLine("What's the name of the recipie?");
-            Recipie.Name = Console.ReadLine();
+            recipie.Name = Console.ReadLine();
             /*
             Recipie myObj = new Recipie();
             myObj.name = Console.ReadLine();
             Console.WriteLine(myObj.name);
             */
+            
             Console.WriteLine("How many people is it serving?");
-            Recipie.servingSize = int.Parse(Console.ReadLine());
+            
+            recipie.servingSize = int.Parse(Console.ReadLine());
+            recipieList.Add(recipie);
         }
-        
-           global::WhatAreWeGonnaEat.JsonFileUtils.SimpleWrite(obj: recipieList, fileName: "Recipies.json");
-        
+        foreach (Recipie recipie in recipieList)
+        {
+            var Json = JsonConvert.SerializeObject(recipieList);
+            global::WhatAreWeGonnaEat.JsonFileUtils.SimpleWrite(Json, "Recipies.Json");
+            //global::WhatAreWeGonnaEat.JsonFileUtils.SimpleWrite(recipieList, "Recipies.Json");
+        }
 
-        
+
 
         Console.WriteLine("Great! Now, let's get the ingredients (sizes in development ;)");
         Ingredients newObj= new Ingredients();
