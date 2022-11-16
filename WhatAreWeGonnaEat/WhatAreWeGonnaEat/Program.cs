@@ -20,12 +20,6 @@ Console.WriteLine();
 Selection = Console.ReadLine();
 
 
-
-static void SimpleWrite()
-{
-
-}
-
     switch (Selection)
     {
         case "1":
@@ -36,6 +30,7 @@ static void SimpleWrite()
         var numberofDays = int.Parse(Console.ReadLine());
 
         Console.WriteLine($"Great, so we need at least {numberofDays} dinner recipies, go ahead and enter the name, and how many people were feeding");
+        Console.WriteLine("");
         var recipieList = new List<Recipie>();
         for (int i = 0; i < numberofDays; i++)
         {
@@ -46,26 +41,39 @@ static void SimpleWrite()
             Recipie myObj = new Recipie();
             myObj.name = Console.ReadLine();
             Console.WriteLine(myObj.name);
-            */
+            */ 
             
             Console.WriteLine("How many people is it serving?");
-            
-            recipie.servingSize = int.Parse(Console.ReadLine());
+            int getSize;
+            while (true)
+            {
+               if (int.TryParse(Console.ReadLine(), out getSize))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input for serving size, needs to be a number. Try again");
+                }
+
+            }
+         recipie.servingSize = getSize;
             recipieList.Add(recipie);
+            Console.WriteLine("");
         }
+        Console.WriteLine($"Great, you've added your recipies");
+
         foreach (Recipie recipie in recipieList)
         {
+            
+
             var Json = JsonConvert.SerializeObject(recipieList);
-            global::WhatAreWeGonnaEat.JsonFileUtils.SimpleWrite(Json, "Recipies.Json");
+            global::WhatAreWeGonnaEat.JsonFileUtils.PrettyWrite(Json, "Recipies.Json");
             //global::WhatAreWeGonnaEat.JsonFileUtils.SimpleWrite(recipieList, "Recipies.Json");
         }
 
-
-
-        Console.WriteLine("Great! Now, let's get the ingredients (sizes in development ;)");
-        Ingredients newObj= new Ingredients();
-        newObj.ingredientsname = Console.ReadLine();
-        Console.WriteLine(newObj.ingredientsname);
+        Console.WriteLine("Now, let's get the ingredients (sizes in development;)");
+        
 
         break;
 
